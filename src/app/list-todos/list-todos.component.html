@@ -9,13 +9,13 @@
              <th>description</th>
              <th>Target Date</th>
              <th>Is Completed?</th>
-             <th>Delete</th>
              <th>Update</th>
+             <th>Delete</th>
          </tr>
      </thead>
      <tbody>
          <tr *ngFor="let todo of todos">
-              
+           
              <td> {{todo.description}}</td>
              <td>{{todo.targetDate|date|uppercase|lowercase}}</td>
              <td>{{todo.done}}</td>

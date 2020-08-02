@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:'welcome/:name',component:WelcmeComponent,canActivate:[RouteGaurdService]},
   {path:'todos',component:ListTodosComponent,canActivate:[RouteGaurdService]},
   {path:'logout',component:LogoutComponent,canActivate:[RouteGaurdService]},
-  {path:'todos/:id',component:TodoComponent,canActivate:[RouteGaurdService]},
+  {path:'todo/:id',component:TodoComponent,canActivate:[RouteGaurdService]},
 
 
   {path:'**',component:ErrorComponent},
